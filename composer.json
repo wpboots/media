@@ -1,0 +1,19 @@
+{
+    "name": "boots/media",
+    "type": "boots-extension",
+    "description": "Easily empower your pages with the wp media uploader and utility for image resizing on the fly.",
+    "keywords": ["boots","wordpress","media","utility","image resize"],
+    "homepage": "http://wpboots.com/extensions/media",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "M. Kamal Khan",
+            "email": "shout@bhittani.com",
+            "homepage": "http://bhittani.com",
+            "role": "Developer"
+        }
+    ],
+    "require" : {
+        "boots/enqueue" : "dev-master"
+    }
+}
