@@ -6,7 +6,7 @@ This is an extension for the [Boots Framework](http://wpboots.com).
 
 ## Documentation
 
-The documentation for Boots - Ajax can be found at [http://wpboots.com/extensions/media/](http://wpboots.com/extensions/media/)
+The documentation for Boots - Media can be found at [http://wpboots.com/extensions/media/](http://wpboots.com/extensions/media/)
 
 ## License
 
