@@ -28,8 +28,7 @@
  *
  */
 
-class Boots_Media
-{
+class Boots_Media_dev_master {
     private $Boots;
     private $Settings;
     private $dir;
@@ -182,7 +181,8 @@ class Boots_Media
         $file['path'] = $wp_upload_path . '/' . $file['name'];
         if(!file_exists($file['path']))
         {
-             $this->Boots->error('Image not found: <em>' . $file['path'] . '</em>');
+            return $this->_get($array, $this->source, $this->width, $this->height);
+            //$this->Boots->error('Image not found: <em>' . $file['path'] . '</em>');
         }
 
         $file['size'] = getimagesize($file['path']);
