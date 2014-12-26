@@ -28,7 +28,7 @@
  *
  */
 
-class Boots_Media_dev_master {
+class Boots_Media {
     private $Boots;
     private $Settings;
     private $dir;
